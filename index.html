@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Obilet.com</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+
+  
+</head>
+
+<body>
+
+  <header>
+    <div class="header-start">
+      <div class="opt1-start">
+        <a href="https://www.obilet.com">
+          <img id="imglogo" src="../obiletcom_logo_kirmizi_zemin.png" alt="pic not found">
+        </a>
+      </div>
+      <div class="header-end">
+        <div class="opt1"><a href="#">
+            <img id="imgtr" src="../trlogo.png" alt="pic not found">
+          </a></div>
+        <div class="opt2">
+          <a href="">TRY</a>
+        </div>
+        <div class="opt3">
+          <a href="">Yardım</a>
+        </div>
+        <div class="opt4">
+          <a href="">Seyahat Sorgula</a>
+        </div>
+        <div class="opt5">
+          <a href="">Üye Girişi</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="categories">
+      <li class="bus"> <a href=""><i class="fa-solid fa-bus-simple" style="color: #d23b38;"></i> Otobüs</a></li>
+      <li class="plane"><a href=""><i class="fa-solid fa-plane" style="color: #d23b38;"></i> Uçak</a></li>
+      <li class="hotel"><a href=""><i class="fa-solid fa-bed" style="color: #d23b38;"></i> Otel</a></li>
+      <li class="vehicle"><a href=""><i class="fa-solid fa-car" style="color: #d23b38;"></i> Araç</a></li>
+      <li class="ferry"><a href=""><i class="fa-solid fa-ferry" style="color: #d23b38;"></i> Feribot</a> </li>
+    </section>
+    <section class="search-container">
+      <form class="search">
+        <h6 style="color: #7e7979;" style="margin-bottom: 5px;"> Kalkış Noktası</h6>
+        <i class="fa-solid fa-location-dot " style="color: #7e7979;"></i><input style="cursor: pointer;margin-bottom: 10px;display: block;" type="text">
+        <h6 style="color: #7e7979;" style="margin-bottom: 5px;"><i class="fa-solid fa-location-dot"style="color: #7e7979;"></i> Varış Noktası</h6>
+        <input style="cursor: pointer;display: block;" type="text">
+        <h6 style="color: #7e7979;"><i class="fa-solid fa-calendar-days"></i> Yolculuk Tarihi</h6>
+        <input style="display: block;cursor: pointer;" type="date" name="date" id="date"  >
+        <input type="button" id="buttonbul" value="Otobüs Bileti Bul" style="cursor: pointer;">
+      </form>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
